@@ -24,7 +24,7 @@ The basic CNN model was trained with the following results:
 - **Training Accuracy:** 87.36%
 - **Training Loss:** 0.3636
 - **Testing Accuracy:** 67.42%
-- **Testing Loss:** Not recorded
+- **Testing Loss:** 1.2396
 
 ![Basic CNN Model Summary](pictures/basic_cnn_summary.png)
 ![Basic CNN Training Results](pictures/basic_cnn_training.png)
@@ -43,7 +43,7 @@ The LeNet model, originally designed for digit recognition, was adapted for this
 
 | Model       | Training Accuracy | Training Loss | Testing Accuracy | Testing Loss |
 |-------------|-------------------|---------------|------------------|--------------|
-| Basic CNN   | 87.36%            | 0.3636        | 67.42%           | -            |
+| Basic CNN   | 87.36%            | 0.3636        | 67.42%           | 1.2396            |
 | LeNet       | 70.52%            | 0.8036        | 46.90%           | 1.6407       |
 
 The basic CNN model outperformed the LeNet model, indicating that a more tailored CNN architecture can better capture the complexities of facial emotions in this dataset.
@@ -56,4 +56,24 @@ This project demonstrated that a basic CNN model can provide higher accuracy on 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/face-emotion-recognition.git
+   git clone https://github.com/Im-Shivaprakash/Face-Emotion-CNN.git
+
+2. Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+
+3. Run the Basic CNN Model:
+    ```bash
+    jupyter notebook Face_Emotion_Recognition.ipynb
+
+To run the basic CNN model, open the Face_Emotion_Recognition.ipynb file using Jupyter Notebook:
+
+Once open, run all cells in the notebook to train and evaluate the basic CNN model on the FER-2013 dataset.
+
+4. Run the LeNet Model:
+    ```bash
+    python lenet_fer2013.py
+
+This will train and evaluate the LeNet architecture on the FER-2013 dataset, displaying results directly in the terminal.
+
+
