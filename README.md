@@ -26,8 +26,8 @@ The basic CNN model was trained with the following results:
 - **Testing Accuracy:** 67.42%
 - **Testing Loss:** Not recorded
 
-![Basic CNN Model Summary](pictures\basic_cnn_summary.png)
-![Basic CNN Training Results](pictures\basic_cnn_training.png)
+![Basic CNN Model Summary](pictures/basic_cnn_summary.png)
+![Basic CNN Training Results](pictures/basic_cnn_training.png)
 
 ### LeNet Architecture
 The LeNet model, originally designed for digit recognition, was adapted for this task. The results were as follows:
@@ -36,8 +36,8 @@ The LeNet model, originally designed for digit recognition, was adapted for this
 - **Testing Accuracy:** 46.90%
 - **Testing Loss:** 1.6407
 
-![LeNet Model Summary](pictures\lenet_cnn_summary.png)
-![LeNet Training Results](pictures\lenet_cnn_training.png)
+![LeNet Model Summary](pictures/lenet_cnn_summary.png)
+![LeNet Training Results](pictures/lenet_cnn_training.png)
 
 ## Performance Comparison
 
